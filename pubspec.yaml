@@ -1,0 +1,55 @@
+name: hello_flutter
+description: "MAD Shopp Mobile App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/backgrounds/create_account.png
+    - assets/backgrounds/login.png
+    - assets/backgrounds/password.png
+    
+    - assets/icons/common/delete.png
+    - assets/icons/common/heart_filled.png
+    - assets/icons/common/heart.png
+    - assets/icons/common/less.png
+    - assets/icons/common/flag.png
+    - assets/icons/common/more.png
+    - assets/icons/common/shopping_filled.png
+    - assets/icons/common/shopping.png
+    
+    - assets/icons/navigation/cart_filled.png
+    - assets/icons/navigation/cart.png
+    - assets/icons/navigation/favorites_filled.png
+    - assets/icons/navigation/favorites.png
+    - assets/icons/navigation/shop_filled.png
+    - assets/icons/navigation/shop.png
+    
+    - assets/logos/splash_logo.png
+    
+    - assets/products/product_1.png
+    - assets/products/product_2.png
+    - assets/products/product_3.png
+    - assets/products/product_4.png
+    - assets/products/product_5.png
+    - assets/products/product_6.png
+    - assets/products/product_7.png
+    - assets/products/product_8.png
+    - assets/products/product_9.png
